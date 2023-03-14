@@ -5,7 +5,7 @@ USE monitorHealth;
 CREATE TABLE tbEmpresa (
 idEmpresa INT PRIMARY KEY auto_increment,
   nomeEmpresa varchar(60) NOT NULL,
-  cnpj char(11) NOT NULL,
+  cnpj char(14) NOT NULL,
   segmento varchar(20) NOT NULL,
   tel char(10) NOT NULL,
   email varchar(30) NOT NULL,
